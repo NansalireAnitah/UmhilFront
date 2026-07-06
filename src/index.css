@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap');
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@config "../tailwind.config.js";
 
 @layer base {
   html {
@@ -19,7 +17,6 @@
     outline-offset: 2px;
   }
 }
-
 @layer utilities {
   .eyebrow {
     @apply text-xs font-mono tracking-[0.2em] uppercase text-emerald;

@@ -5,14 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-<<<<<<< HEAD
-    "build": "vite build",
+    "build": "tsc && vite build",
     "lint": "oxlint",
     "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.1.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.2",
@@ -22,16 +22,7 @@
     "oxlint": "^1.71.0",
     "postcss": "^8.5.16",
     "tailwindcss": "^4.3.2",
-=======
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4.3.2",
-    "postcss": "^8.5.16",
-    "tailwindcss": "^4.3.2",
     "typescript": "~6.0.2",
->>>>>>> 9dc146b812f47f6bd41597630562d6070584b8f0
     "vite": "^8.1.1"
   }
 }
